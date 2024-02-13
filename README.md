@@ -1,5 +1,5 @@
 # Telex_teensy4
-An adaptation of bpcmusic's Telex Teletype Expanders for Teensy 4.  Original version here: https://github.com/bpcmusic/telex
+An update of bpcmusic's Telex Teletype Expanders to make them compatable with Teensy 4.x devices.     The original version can be found here: https://github.com/bpcmusic/telex
 
 Uses the original PCB - No hardware changes needed.
 
