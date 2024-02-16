@@ -28,9 +28,9 @@
 
 // sampling rate and LED rate values  //increased fro teensy 4.0
 #ifdef TURBO
-#define SAMPLINGRATE 100000 //50000 //25000    //need to keep these multiples of the original 25k, or osc tuning is off
-#define SAMPLINGRATEDIV2 50000 //25000 //12500
-#define KRATE 100 //50 //25
+#define SAMPLINGRATE 25000    //need to keep these multiples of the original 25k, or osc tuning is off
+#define SAMPLINGRATEDIV2 12500
+#define KRATE 25
 // ulstep for 20k (for polyblep threshold)
 #define FQ20K 3435973
 #else
