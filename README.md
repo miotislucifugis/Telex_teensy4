@@ -15,9 +15,9 @@ Changes are made in defines.h
 
     // sampling rate and LED rate values  //increased fro teensy 4.0
     #ifdef TURBO
-    #define SAMPLINGRATE 50000 //100000 //50000 //25000    //need to keep these multiples of the original 25k, or osc tuning is off
-    #define SAMPLINGRATEDIV2 25000 //50000 //25000 //12500
-    #define KRATE 50 //100 //50 //25
+    #define SAMPLINGRATE 50000  //25000    //need to keep these multiples of the original 25k, or osc tuning is off
+    #define SAMPLINGRATEDIV2 25000 //12500
+    #define KRATE 50 //25
 
 
 TXI : firmware has been updated, but is currently untested, as I lack a txi.  The only changes made were changing the I2c Library in the main sketch and the txhelper.ccp and txhelper.h tabs.    It compiles and should work.    
