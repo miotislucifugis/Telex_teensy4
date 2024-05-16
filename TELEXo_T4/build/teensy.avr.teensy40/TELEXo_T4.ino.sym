@@ -1,0 +1,1053 @@
+
+/private/var/folders/rr/vx0td18110v1z2t2_7cpm6lw0000gn/T/arduino/sketches/1A45862705C6A7C8D249B61812C4294E/TELEXo_T4.ino.elf:     file format elf32-littlearm
+
+SYMBOL TABLE:
+60000000 l    d  .text.headers	00000000 .text.headers
+60001400 l    d  .text.code	00000000 .text.code
+60001b04 l    d  .text.progmem	00000000 .text.progmem
+00000000 l    d  .text.itcm	00000000 .text.itcm
+0000cae0 l    d  .fini	00000000 .fini
+0000cae4 l    d  .ARM.exidx	00000000 .ARM.exidx
+20000000 l    d  .data	00000000 .data
+2001a2c0 l    d  .bss	00000000 .bss
+20200000 l    d  .bss.dma	00000000 .bss.dma
+600cb6cc l    d  .text.csf	00000000 .text.csf
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_frame	00000000 .debug_frame
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .debug_loclists	00000000 .debug_loclists
+00000000 l    d  .debug_aranges	00000000 .debug_aranges
+00000000 l    d  .debug_rnglists	00000000 .debug_rnglists
+00000000 l    d  .debug_line_str	00000000 .debug_line_str
+00000000 l    df *ABS*	00000000 bootdata.c
+00000000 l    df *ABS*	00000000 startup.c
+60001400 l     F .text.code	00000012 memory_copy
+60001414 l     F .text.code	0000001c memory_clear.constprop.0
+60001430 l     F .text.code	00000218 ResetHandler2
+00000000 l    df *ABS*	00000000 analog.c
+2001ac79 l     O .bss	00000001 calibrating
+00000000 l    df *ABS*	00000000 tempmon.c
+2001ac08 l     O .bss	00000004 s_hotCount
+2001ac0c l     O .bss	00000004 s_hotTemp
+2001ac10 l     O .bss	00000004 s_hot_ROOM
+2001ac14 l     O .bss	00000004 s_roomC_hotC
+00000000 l    df *ABS*	00000000 usb.c
+000052f0 l     F .text.itcm	00000088 schedule_transfer
+00005378 l     F .text.itcm	00000036 run_callbacks
+000053b0 l     F .text.itcm	00000098 endpoint0_transmit.constprop.0
+2001ab98 l     O .bss	00000008 endpoint0_buffer
+2001aba0 l     O .bss	00000004 endpoint0_notify_mask
+2001a4e0 l     O .bss	00000008 endpoint0_setupdata
+2001aba4 l     O .bss	00000004 endpointN_notify_mask
+2001abd0 l     O .bss	00000008 reply_buffer
+2001ac7d l     O .bss	00000001 sof_usage
+2001ac84 l     O .bss	00000001 usb_reboot_timer
+00000000 l    df *ABS*	00000000 crti.o
+00000000 l    df *ABS*	00000000 crtn.o
+00000000 l    df *ABS*	00000000 crtstuff.c
+000002fc l     F .text.itcm	00000000 register_tm_clones
+00000320 l     F .text.itcm	00000000 frame_dummy
+2001abb4 l     O .bss	00000000 object.0
+60001af0 l     O .text.code	00000000 __frame_dummy_init_array_entry
+00000000 l    df *ABS*	00000000 TELEXo_T4.ino.cpp
+0000285c l     F .text.itcm	0000003c _GLOBAL__sub_I_enablePullups
+00000000 l    df *ABS*	00000000 i2c_driver_wire.cpp
+00003034 l     F .text.itcm	00000048 _GLOBAL__sub_I__ZN13I2CDriverWireC2ER9I2CMasterR8I2CSlave
+00000000 l    df *ABS*	00000000 imx_rt1060_i2c_driver.cpp
+0000355c l     F .text.itcm	0000000c master2_isr()
+00003568 l     F .text.itcm	0000000c master1_isr()
+00003574 l     F .text.itcm	0000000c master_isr()
+00003ae8 l     F .text.itcm	0000000c slave2_isr()
+00003af4 l     F .text.itcm	0000000c slave1_isr()
+00003b00 l     F .text.itcm	0000000c slave_isr()
+00003b0c l     F .text.itcm	00000168 _GLOBAL__sub_I__ZN9I2CBufferC2Ev
+2001a83c l     O .bss	00000000 empty_buffer
+00000000 l    df *ABS*	00000000 IntervalTimer.cpp
+00004158 l     F .text.itcm	00000084 pit_isr()
+000041dc l     F .text.itcm	00000020 __tcf_0
+00004370 l     F .text.itcm	0000002c _GLOBAL__sub_I__ZN13IntervalTimer14nvic_prioritesE
+2001a2c0 l     O .bss	00000060 funct_table
+00000000 l    df *ABS*	00000000 Oscillator.cpp
+600a4014 l     O .text.progmem	00000804 wt0
+600a3810 l     O .text.progmem	00000804 wt1
+600a300c l     O .text.progmem	00000804 wt2
+600a2808 l     O .text.progmem	00000804 wt4
+600a2004 l     O .text.progmem	00000804 wt5
+600a1800 l     O .text.progmem	00000804 wt6
+600a0ffc l     O .text.progmem	00000804 wt7
+600a07f8 l     O .text.progmem	00000804 wt8
+6009fff4 l     O .text.progmem	00000804 wt9
+6009f7f0 l     O .text.progmem	00000804 wt10
+6009efec l     O .text.progmem	00000804 wt11
+6009e7e8 l     O .text.progmem	00000804 wt12
+6009dfe4 l     O .text.progmem	00000804 wt13
+6009d7e0 l     O .text.progmem	00000804 wt14
+6009cfdc l     O .text.progmem	00000804 wt15
+6009c7d8 l     O .text.progmem	00000804 wt16
+6009bfd4 l     O .text.progmem	00000804 wt17
+6009b7d0 l     O .text.progmem	00000804 wt18
+6009afcc l     O .text.progmem	00000804 wt19
+6009a7c8 l     O .text.progmem	00000804 wt20
+60099fc4 l     O .text.progmem	00000804 wt21
+600997c0 l     O .text.progmem	00000804 wt22
+60098fbc l     O .text.progmem	00000804 wt23
+600987b8 l     O .text.progmem	00000804 wt24
+60097fb4 l     O .text.progmem	00000804 wt25
+600977b0 l     O .text.progmem	00000804 wt26
+60096fac l     O .text.progmem	00000804 wt27
+600967a8 l     O .text.progmem	00000804 wt28
+60095fa4 l     O .text.progmem	00000804 wt29
+600957a0 l     O .text.progmem	00000804 wt30
+60094f9c l     O .text.progmem	00000804 wt31
+60094798 l     O .text.progmem	00000804 wt32
+60093f94 l     O .text.progmem	00000804 wt33
+60093790 l     O .text.progmem	00000804 wt34
+60092f8c l     O .text.progmem	00000804 wt35
+60092788 l     O .text.progmem	00000804 wt36
+60091f84 l     O .text.progmem	00000804 wt37
+60091780 l     O .text.progmem	00000804 wt38
+60090f7c l     O .text.progmem	00000804 wt39
+60090778 l     O .text.progmem	00000804 wt40
+6008ff74 l     O .text.progmem	00000804 wt41
+6008f770 l     O .text.progmem	00000804 wt42
+6008ef6c l     O .text.progmem	00000804 wt43
+6008e768 l     O .text.progmem	00000804 wt44
+6008df64 l     O .text.progmem	00000804 wt45
+6008d760 l     O .text.progmem	00000804 wt46
+6008cf5c l     O .text.progmem	00000804 wt47
+6008c758 l     O .text.progmem	00000804 wt48
+6008bf54 l     O .text.progmem	00000804 wt49
+6008b750 l     O .text.progmem	00000804 wt50
+6008af4c l     O .text.progmem	00000804 wt51
+6008a748 l     O .text.progmem	00000804 wt52
+60089f44 l     O .text.progmem	00000804 wt53
+60089740 l     O .text.progmem	00000804 wt54
+60088f3c l     O .text.progmem	00000804 wt55
+60088738 l     O .text.progmem	00000804 wt56
+60087f34 l     O .text.progmem	00000804 wt57
+60087730 l     O .text.progmem	00000804 wt58
+60086f2c l     O .text.progmem	00000804 wt59
+60086728 l     O .text.progmem	00000804 wt60
+60085f24 l     O .text.progmem	00000804 wt61
+60085720 l     O .text.progmem	00000804 wt62
+60084f1c l     O .text.progmem	00000804 wt63
+60084718 l     O .text.progmem	00000804 wt64
+60083f14 l     O .text.progmem	00000804 wt65
+60083710 l     O .text.progmem	00000804 wt66
+60082f0c l     O .text.progmem	00000804 wt67
+60082708 l     O .text.progmem	00000804 wt68
+60081f04 l     O .text.progmem	00000804 wt69
+60081700 l     O .text.progmem	00000804 wt70
+60080efc l     O .text.progmem	00000804 wt71
+600806f8 l     O .text.progmem	00000804 wt72
+6007fef4 l     O .text.progmem	00000804 wt73
+6007f6f0 l     O .text.progmem	00000804 wt74
+6007eeec l     O .text.progmem	00000804 wt75
+6007e6e8 l     O .text.progmem	00000804 wt76
+6007dee4 l     O .text.progmem	00000804 wt77
+6007d6e0 l     O .text.progmem	00000804 wt78
+6007cedc l     O .text.progmem	00000804 wt79
+6007c6d8 l     O .text.progmem	00000804 wt80
+6007bed4 l     O .text.progmem	00000804 wt81
+6007b6d0 l     O .text.progmem	00000804 wt82
+6007aecc l     O .text.progmem	00000804 wt83
+6007a6c8 l     O .text.progmem	00000804 wt84
+60079ec4 l     O .text.progmem	00000804 wt85
+600796c0 l     O .text.progmem	00000804 wt86
+60078ebc l     O .text.progmem	00000804 wt87
+600786b8 l     O .text.progmem	00000804 wt88
+60077eb4 l     O .text.progmem	00000804 wt89
+600776b0 l     O .text.progmem	00000804 wt90
+60076eac l     O .text.progmem	00000804 wt91
+600766a8 l     O .text.progmem	00000804 wt92
+60075ea4 l     O .text.progmem	00000804 wt93
+600756a0 l     O .text.progmem	00000804 wt94
+60074e9c l     O .text.progmem	00000804 wt95
+60074698 l     O .text.progmem	00000804 wt96
+60073e94 l     O .text.progmem	00000804 wt97
+60073690 l     O .text.progmem	00000804 wt98
+60072e8c l     O .text.progmem	00000804 wt99
+60072688 l     O .text.progmem	00000804 wt100
+60071e84 l     O .text.progmem	00000804 wt101
+60071680 l     O .text.progmem	00000804 wt102
+60070e7c l     O .text.progmem	00000804 wt103
+60070678 l     O .text.progmem	00000804 wt104
+6006fe74 l     O .text.progmem	00000804 wt105
+6006f670 l     O .text.progmem	00000804 wt106
+6006ee6c l     O .text.progmem	00000804 wt107
+6006e668 l     O .text.progmem	00000804 wt108
+6006de64 l     O .text.progmem	00000804 wt109
+6006d660 l     O .text.progmem	00000804 wt110
+6006ce5c l     O .text.progmem	00000804 wt111
+6006c658 l     O .text.progmem	00000804 wt112
+6006be54 l     O .text.progmem	00000804 wt113
+6006b650 l     O .text.progmem	00000804 wt114
+6006ae4c l     O .text.progmem	00000804 wt115
+6006a648 l     O .text.progmem	00000804 wt116
+60069e44 l     O .text.progmem	00000804 wt117
+60069640 l     O .text.progmem	00000804 wt118
+60068e3c l     O .text.progmem	00000804 wt119
+60068638 l     O .text.progmem	00000804 wt120
+60067e34 l     O .text.progmem	00000804 wt121
+60067630 l     O .text.progmem	00000804 wt122
+60066e2c l     O .text.progmem	00000804 wt123
+60066628 l     O .text.progmem	00000804 wt124
+60065e24 l     O .text.progmem	00000804 wt125
+60065620 l     O .text.progmem	00000804 wt126
+60064e1c l     O .text.progmem	00000804 wt127
+60064618 l     O .text.progmem	00000804 wt128
+60063e14 l     O .text.progmem	00000804 wt129
+60063610 l     O .text.progmem	00000804 wt130
+60062e0c l     O .text.progmem	00000804 wt131
+60062608 l     O .text.progmem	00000804 wt132
+60061e04 l     O .text.progmem	00000804 wt133
+60061600 l     O .text.progmem	00000804 wt134
+60060dfc l     O .text.progmem	00000804 wt135
+600605f8 l     O .text.progmem	00000804 wt136
+6005fdf4 l     O .text.progmem	00000804 wt137
+6005f5f0 l     O .text.progmem	00000804 wt138
+6005edec l     O .text.progmem	00000804 wt139
+6005e5e8 l     O .text.progmem	00000804 wt140
+6005dde4 l     O .text.progmem	00000804 wt141
+6005d5e0 l     O .text.progmem	00000804 wt142
+6005cddc l     O .text.progmem	00000804 wt143
+6005c5d8 l     O .text.progmem	00000804 wt144
+6005bdd4 l     O .text.progmem	00000804 wt145
+6005b5d0 l     O .text.progmem	00000804 wt146
+6005adcc l     O .text.progmem	00000804 wt147
+6005a5c8 l     O .text.progmem	00000804 wt148
+60059dc4 l     O .text.progmem	00000804 wt149
+600595c0 l     O .text.progmem	00000804 wt150
+60058dbc l     O .text.progmem	00000804 wt151
+600585b8 l     O .text.progmem	00000804 wt152
+60057db4 l     O .text.progmem	00000804 wt153
+600575b0 l     O .text.progmem	00000804 wt154
+60056dac l     O .text.progmem	00000804 wt155
+600565a8 l     O .text.progmem	00000804 wt156
+60055da4 l     O .text.progmem	00000804 wt157
+600555a0 l     O .text.progmem	00000804 wt158
+60054d9c l     O .text.progmem	00000804 wt159
+60054598 l     O .text.progmem	00000804 wt160
+60053d94 l     O .text.progmem	00000804 wt161
+60053590 l     O .text.progmem	00000804 wt162
+60052d8c l     O .text.progmem	00000804 wt163
+60052588 l     O .text.progmem	00000804 wt164
+60051d84 l     O .text.progmem	00000804 wt165
+60051580 l     O .text.progmem	00000804 wt166
+60050d7c l     O .text.progmem	00000804 wt167
+60050578 l     O .text.progmem	00000804 wt168
+6004fd74 l     O .text.progmem	00000804 wt169
+6004f570 l     O .text.progmem	00000804 wt170
+6004ed6c l     O .text.progmem	00000804 wt171
+6004e568 l     O .text.progmem	00000804 wt172
+6004dd64 l     O .text.progmem	00000804 wt173
+6004d560 l     O .text.progmem	00000804 wt174
+6004cd5c l     O .text.progmem	00000804 wt175
+6004c558 l     O .text.progmem	00000804 wt176
+6004bd54 l     O .text.progmem	00000804 wt177
+6004b550 l     O .text.progmem	00000804 wt178
+6004ad4c l     O .text.progmem	00000804 wt179
+6004a548 l     O .text.progmem	00000804 wt180
+60049d44 l     O .text.progmem	00000804 wt181
+60049540 l     O .text.progmem	00000804 wt182
+60048d3c l     O .text.progmem	00000804 wt183
+60048538 l     O .text.progmem	00000804 wt184
+60047d34 l     O .text.progmem	00000804 wt185
+60047530 l     O .text.progmem	00000804 wt186
+60046d2c l     O .text.progmem	00000804 wt187
+60046528 l     O .text.progmem	00000804 wt188
+60045d24 l     O .text.progmem	00000804 wt189
+60045520 l     O .text.progmem	00000804 wt190
+60044d1c l     O .text.progmem	00000804 wt191
+60044518 l     O .text.progmem	00000804 wt192
+60043d14 l     O .text.progmem	00000804 wt193
+60043510 l     O .text.progmem	00000804 wt194
+60042d0c l     O .text.progmem	00000804 wt195
+60042508 l     O .text.progmem	00000804 wt196
+60041d04 l     O .text.progmem	00000804 wt197
+60041500 l     O .text.progmem	00000804 wt198
+60040cfc l     O .text.progmem	00000804 wt199
+600404f8 l     O .text.progmem	00000804 wt200
+6003fcf4 l     O .text.progmem	00000804 wt201
+6003f4f0 l     O .text.progmem	00000804 wt202
+6003ecec l     O .text.progmem	00000804 wt203
+6003e4e8 l     O .text.progmem	00000804 wt204
+6003dce4 l     O .text.progmem	00000804 wt205
+6003d4e0 l     O .text.progmem	00000804 wt206
+6003ccdc l     O .text.progmem	00000804 wt207
+6003c4d8 l     O .text.progmem	00000804 wt208
+6003bcd4 l     O .text.progmem	00000804 wt209
+6003b4d0 l     O .text.progmem	00000804 wt210
+6003accc l     O .text.progmem	00000804 wt211
+6003a4c8 l     O .text.progmem	00000804 wt212
+60039cc4 l     O .text.progmem	00000804 wt213
+600394c0 l     O .text.progmem	00000804 wt214
+60038cbc l     O .text.progmem	00000804 wt215
+600384b8 l     O .text.progmem	00000804 wt216
+60037cb4 l     O .text.progmem	00000804 wt217
+600374b0 l     O .text.progmem	00000804 wt218
+60036cac l     O .text.progmem	00000804 wt219
+600364a8 l     O .text.progmem	00000804 wt220
+60035ca4 l     O .text.progmem	00000804 wt221
+600354a0 l     O .text.progmem	00000804 wt222
+60034c9c l     O .text.progmem	00000804 wt223
+60034498 l     O .text.progmem	00000804 wt224
+60033c94 l     O .text.progmem	00000804 wt225
+60033490 l     O .text.progmem	00000804 wt226
+60032c8c l     O .text.progmem	00000804 wt227
+60032488 l     O .text.progmem	00000804 wt228
+60031c84 l     O .text.progmem	00000804 wt229
+60031480 l     O .text.progmem	00000804 wt230
+60030c7c l     O .text.progmem	00000804 wt231
+60030478 l     O .text.progmem	00000804 wt232
+6002fc74 l     O .text.progmem	00000804 wt233
+6002f470 l     O .text.progmem	00000804 wt234
+6002ec6c l     O .text.progmem	00000804 wt235
+6002e468 l     O .text.progmem	00000804 wt236
+6002dc64 l     O .text.progmem	00000804 wt237
+6002d460 l     O .text.progmem	00000804 wt238
+6002cc5c l     O .text.progmem	00000804 wt239
+6002c458 l     O .text.progmem	00000804 wt240
+6002bc54 l     O .text.progmem	00000804 wt241
+6002b450 l     O .text.progmem	00000804 wt242
+6002ac4c l     O .text.progmem	00000804 wt243
+6002a448 l     O .text.progmem	00000804 wt244
+60029c44 l     O .text.progmem	00000804 wt245
+60029440 l     O .text.progmem	00000804 wt246
+60028c3c l     O .text.progmem	00000804 wt247
+60028438 l     O .text.progmem	00000804 wt248
+60027c34 l     O .text.progmem	00000804 wt249
+60027430 l     O .text.progmem	00000804 wt250
+60026c2c l     O .text.progmem	00000804 wt251
+60026428 l     O .text.progmem	00000804 wt252
+60025c24 l     O .text.progmem	00000804 wt253
+60025420 l     O .text.progmem	00000804 wt254
+60024c1c l     O .text.progmem	00000804 wt255
+60024418 l     O .text.progmem	00000804 wt256
+60023c14 l     O .text.progmem	00000804 wt257
+60023410 l     O .text.progmem	00000804 wt258
+60022c0c l     O .text.progmem	00000804 wt259
+60022408 l     O .text.progmem	00000804 wt260
+60021c04 l     O .text.progmem	00000804 wt261
+60021400 l     O .text.progmem	00000804 wt262
+60020bfc l     O .text.progmem	00000804 wt263
+600203f8 l     O .text.progmem	00000804 wt264
+6001fbf4 l     O .text.progmem	00000804 wt265
+6001f3f0 l     O .text.progmem	00000804 wt266
+6001ebec l     O .text.progmem	00000804 wt267
+6001e3e8 l     O .text.progmem	00000804 wt268
+6001dbe4 l     O .text.progmem	00000804 wt269
+6001d3e0 l     O .text.progmem	00000804 wt270
+6001cbdc l     O .text.progmem	00000804 wt271
+6001c3d8 l     O .text.progmem	00000804 wt272
+6001bbd4 l     O .text.progmem	00000804 wt273
+6001b3d0 l     O .text.progmem	00000804 wt274
+6001abcc l     O .text.progmem	00000804 wt275
+6001a3c8 l     O .text.progmem	00000804 wt276
+60019bc4 l     O .text.progmem	00000804 wt277
+600193c0 l     O .text.progmem	00000804 wt278
+60018bbc l     O .text.progmem	00000804 wt279
+600183b8 l     O .text.progmem	00000804 wt280
+60017bb4 l     O .text.progmem	00000804 wt281
+600173b0 l     O .text.progmem	00000804 wt282
+60016bac l     O .text.progmem	00000804 wt283
+600163a8 l     O .text.progmem	00000804 wt284
+60015ba4 l     O .text.progmem	00000804 wt285
+600153a0 l     O .text.progmem	00000804 wt286
+60014b9c l     O .text.progmem	00000804 wt287
+60014398 l     O .text.progmem	00000804 wt288
+60013b94 l     O .text.progmem	00000804 wt289
+60013390 l     O .text.progmem	00000804 wt290
+60012b8c l     O .text.progmem	00000804 wt291
+60012388 l     O .text.progmem	00000804 wt292
+60011b84 l     O .text.progmem	00000804 wt293
+60011380 l     O .text.progmem	00000804 wt294
+60010b7c l     O .text.progmem	00000804 wt295
+60010378 l     O .text.progmem	00000804 wt296
+6000fb74 l     O .text.progmem	00000804 wt297
+6000f370 l     O .text.progmem	00000804 wt298
+6000eb6c l     O .text.progmem	00000804 wt299
+6000e368 l     O .text.progmem	00000804 wt300
+6000db64 l     O .text.progmem	00000804 wt301
+6000d360 l     O .text.progmem	00000804 wt302
+6000cb5c l     O .text.progmem	00000804 wt303
+6000c358 l     O .text.progmem	00000804 wt304
+6000bb54 l     O .text.progmem	00000804 wt305
+6000b350 l     O .text.progmem	00000804 wt306
+6000ab4c l     O .text.progmem	00000804 wt307
+6000a348 l     O .text.progmem	00000804 wt308
+60009b44 l     O .text.progmem	00000804 wt309
+60009340 l     O .text.progmem	00000804 wt310
+60008b3c l     O .text.progmem	00000804 wt311
+60008338 l     O .text.progmem	00000804 wt312
+60007b34 l     O .text.progmem	00000804 wt313
+60007330 l     O .text.progmem	00000804 wt314
+60006b2c l     O .text.progmem	00000804 wt315
+60006328 l     O .text.progmem	00000804 wt316
+60005b24 l     O .text.progmem	00000804 wt317
+60005320 l     O .text.progmem	00000804 wt318
+60004b1c l     O .text.progmem	00000804 wt319
+60004318 l     O .text.progmem	00000804 wt320
+60003b14 l     O .text.progmem	00000804 wt321
+60003310 l     O .text.progmem	00000804 wt322
+60002b0c l     O .text.progmem	00000804 wt323
+60002308 l     O .text.progmem	00000804 wt324
+60001b04 l     O .text.progmem	00000804 wt325
+00000000 l    df *ABS*	00000000 usb_desc.c
+200198d0 l     O .data	00000012 device_descriptor
+200199d4 l     O .data	00000028 microsoft_os_compatible_id_desc
+200199fc l     O .data	00000012 microsoft_os_string_desc
+600a4914 l     O .text.progmem	0000000a qualifier_descriptor
+00000000 l    df *ABS*	00000000 CVOutput.cpp
+2000038c l     O .data	00010000 ExpTable
+00000000 l    df *ABS*	00000000 TriggerOutput.cpp
+00000000 l    df *ABS*	00000000 DAC7565.cpp
+20000378 l     O .data	00000014 CSWTCH.12
+00000000 l    df *ABS*	00000000 Output.cpp
+00000000 l    df *ABS*	00000000 Quantizer.cpp
+00000000 l    df *ABS*	00000000 TxHelper.cpp
+00000000 l    df *ABS*	00000000 SPI.cpp
+200189e8 l     O .data	00000010 SPIClass::setClockDivider_noInline(unsigned long)::clk_sel
+00000000 l    df *ABS*	00000000 EventResponder.cpp
+00000000 l    df *ABS*	00000000 Print.cpp
+00000000 l    df *ABS*	00000000 WMath.cpp
+2001a83c l     O .bss	00000004 seed
+00000000 l    df *ABS*	00000000 delay.c
+00000000 l    df *ABS*	00000000 digital.c
+0000459c l     F .text.itcm	00000050 digitalWrite.part.0
+00000000 l    df *ABS*	00000000 eeprom.c
+00004818 l     F .text.itcm	0000005c flash_wait
+2001ac7a l     O .bss	00000001 initialized
+2001ac1c l     O .bss	0000001e sector_index
+00000000 l    df *ABS*	00000000 main.cpp
+00000000 l    df *ABS*	00000000 memcpy-armv7m.S.o
+00000000 l    df *ABS*	00000000 new.cpp
+00000000 l    df *ABS*	00000000 nonstd.c
+00000000 l    df *ABS*	00000000 pwm.c
+00000000 l    df *ABS*	00000000 usb_inst.cpp
+00000000 l    df *ABS*	00000000 usb_serial.c
+00005c5c l     F .text.itcm	00000060 rx_queue_transfer
+20200080 l     O .bss.dma	00001000 rx_buffer
+00005cbc l     F .text.itcm	000000b4 rx_event
+00005d70 l     F .text.itcm	00000090 usb_serial_flush_callback
+20201080 l     O .bss.dma	00002000 txbuffer
+00005e00 l     F .text.itcm	000001b8 usb_serial_write.part.0
+2001abd8 l     O .bss	00000004 rx_available
+2001abdc l     O .bss	00000010 rx_count
+2001ac7b l     O .bss	00000001 rx_head
+2001abec l     O .bss	00000010 rx_index
+2001abfc l     O .bss	00000009 rx_list
+2001ac70 l     O .bss	00000002 rx_packet_size
+2001ac7c l     O .bss	00000001 rx_tail
+2001a360 l     O .bss	00000100 rx_transfer
+2001ac7e l     O .bss	00000001 transmit_previous_timeout
+2001ac72 l     O .bss	00000002 tx_available
+2001ac7f l     O .bss	00000001 tx_head
+2001ac80 l     O .bss	00000001 tx_noautoflush
+2001ac74 l     O .bss	00000002 tx_packet_size
+2001a460 l     O .bss	00000080 tx_transfer
+00000000 l    df *ABS*	00000000 yield.cpp
+2001ac78 l     O .bss	00000001 yield::running
+00000000 l    df *ABS*	00000000 clockspeed.c
+00000000 l    df *ABS*	00000000 rtc.c
+00000000 l    df *ABS*	00000000 atexit_arm.o
+00000000 l    df *ABS*	00000000 libc_a-malloc.o
+00000000 l    df *ABS*	00000000 libc_a-mallocr.o
+00000000 l    df *ABS*	00000000 libc_a-mlock.o
+00000000 l    df *ABS*	00000000 libc_a-reallocr.o
+00000000 l    df *ABS*	00000000 libc_a-findfp.o
+00007118 l     F .text.itcm	00000018 stdio_exit_handler
+00007130 l     F .text.itcm	00000040 cleanup_stdio
+00007170 l     F .text.itcm	000000d4 global_stdio_init.part.0
+00000000 l    df *ABS*	00000000 libc_a-vdprintf.o
+00000000 l    df *ABS*	00000000 libc_a-fwalk.o
+00000000 l    df *ABS*	00000000 libc_a-memmove.o
+00000000 l    df *ABS*	00000000 libc_a-memset.o
+00000000 l    df *ABS*	00000000 libc_a-strncpy.o
+00000000 l    df *ABS*	00000000 libc_a-vasnprintf.o
+00000000 l    df *ABS*	00000000 libc_a-locale.o
+00000000 l    df *ABS*	00000000 libc_a-cxa_atexit.o
+00000000 l    df *ABS*	00000000 libc_a-sbrkr.o
+00000000 l    df *ABS*	00000000 libc_a-writer.o
+00000000 l    df *ABS*	00000000 libc_a-errno.o
+00000000 l    df *ABS*	00000000 libc_a-init.o
+00000000 l    df *ABS*	00000000 libc_a-lock.o
+00000000 l    df *ABS*	00000000 libc_a-strlen.o
+00000000 l    df *ABS*	00000000 libc_a-__atexit.o
+00000000 l    df *ABS*	00000000 libc_a-freer.o
+00000000 l    df *ABS*	00000000 libc_a-mbtowc_r.o
+00000000 l    df *ABS*	00000000 libc_a-svfprintf.o
+00000000 l    df *ABS*	00000000 libc_a-mprec.o
+00000000 l    df *ABS*	00000000 libc_a-fclose.o
+00000000 l    df *ABS*	00000000 libc_a-fflush.o
+00000000 l    df *ABS*	00000000 libc_a-stdio.o
+00000000 l    df *ABS*	00000000 libc_a-wctomb_r.o
+00000000 l    df *ABS*	00000000 libc_a-localeconv.o
+00000000 l    df *ABS*	00000000 libc_a-closer.o
+00000000 l    df *ABS*	00000000 libc_a-lseekr.o
+00000000 l    df *ABS*	00000000 libc_a-readr.o
+00000000 l    df *ABS*	00000000 libc_a-memchr.o
+00000000 l    df *ABS*	00000000 libc_a-wcrtomb.o
+00000000 l    df *ABS*	00000000 libc_a-wcsrtombs.o
+00000000 l    df *ABS*	00000000 libm_a-s_frexp.o
+00000000 l    df *ABS*	00000000 libc_a-assert.o
+00000000 l    df *ABS*	00000000 libc_a-callocr.o
+00000000 l    df *ABS*	00000000 libc_a-dtoa.o
+0000a338 l     F .text.itcm	00000126 quorem
+00000000 l    df *ABS*	00000000 libc_a-fiprintf.o
+00000000 l    df *ABS*	00000000 libc_a-svfiprintf.o
+00000000 l    df *ABS*	00000000 libc_a-vfiprintf.o
+0000b274 l     F .text.itcm	00000076 __sprint_r.part.0
+0000c278 l     F .text.itcm	00000080 __sbprintf
+00000000 l    df *ABS*	00000000 libc_a-fvwrite.o
+00000000 l    df *ABS*	00000000 libc_a-wsetup.o
+00000000 l    df *ABS*	00000000 libc_a-fputwc.o
+00000000 l    df *ABS*	00000000 libc_a-wcsnrtombs.o
+00000000 l    df *ABS*	00000000 libc_a-makebuf.o
+00000000 l    df *ABS*	00000000 libc_a-wbuf.o
+00000000 l    df *ABS*	00000000 libc_a-fstatr.o
+00000000 l    df *ABS*	00000000 libc_a-isattyr.o
+00000000 l    df *ABS*	00000000 libc_a-ctype_.o
+00000000 l    df *ABS*	00000000 libc_a-impure.o
+00000000 l    df *ABS*	00000000 libc_a-__call_atexit.o
+00000000 l    df *ABS*	00000000 HardwareSerial.cpp
+60001ab8 l     F .text.code	00000008 __set_arm_clock_veneer
+60001ac0 l     F .text.code	00000008 __usb_init_serialnumber_veneer
+60001ac8 l     F .text.code	00000008 __main_veneer
+60001ad0 l     F .text.code	00000008 ____libc_init_array_veneer
+60001ad8 l     F .text.code	00000008 __memset_veneer
+60001ae0 l     F .text.code	00000008 __pwm_init_veneer
+60001ae8 l     F .text.code	00000008 __delay_veneer
+0000cad0 l     F .text.itcm	00000008 ___init_veneer
+0000cad8 l     F .text.itcm	00000008 ___reboot_Teensyduino__veneer
+000029f4 g     F .text.itcm	00000012 TriggerOutput::SetDivision(int)
+000061e0 g     F .text.itcm	00000018 usb_serial_available
+20017abc g     O .data	000001e8 Quantizer::scale13
+00001560 g     F .text.itcm	000000b8 Oscillator::TargetFloatFrequency(float)
+0000caac g     F .text.itcm	00000024 _isatty_r
+20013d04 g     O .data	0000026c Quantizer::scale4
+00001e8c  w    F .text.itcm	0000000c IntervalTimer::~IntervalTimer()
+600016cc g     F .text.code	00000002 startup_default_late_hook
+0000a09c g     F .text.itcm	0000002c _lseek_r
+000028a8 g     F .text.itcm	00000068 TriggerOutput::TriggerOutput(int, int)
+000063b0  w    F .text.itcm	000000d8 yield
+00003660 g     F .text.itcm	0000003c IMX_RT1060_I2CMaster::write_async(unsigned char, unsigned char const*, unsigned int, bool)
+00000de4 g     F .text.itcm	00000134 CVOutput::Reset()
+00000730 g     F .text.itcm	00000006 CVOutput::SetWidth(int)
+2001ac6c g     O .bss	00000004 usb_timer1_callback
+20013194 g     O .data	000001e8 Quantizer::hints8
+600a4830 g     O .text.progmem	00000018 usb_string_manufacturer_name_default
+20011238 g     O .data	0000055c Quantizer::freqs6
+2001a74c g     O .bss	00000078 Wire1
+200103d4  w    O .data	00000010 teensy::inplace_function_detail::empty_vtable<void>
+2001890c g     O .data	00000024 vtable for I2CDriverWire
+20013f70 g     O .data	000002f8 Quantizer::scale5
+2001aa00 g     O .bss	00000001 __lock___atexit_recursive_mutex
+0000a1a0 g     F .text.itcm	0000004c _wcrtomb_r
+00001154 g     F .text.itcm	00000016 CVOutput::SetLoop(int)
+0000a02c g     F .text.itcm	00000020 __sseek
+00007244 g     F .text.itcm	0000003c __sinit
+0000c9d0 g     F .text.itcm	000000b0 __swbuf_r
+00002d6c g     F .text.itcm	00000024 I2CDriverWire::before_transmit(unsigned short)
+000043dc g     F .text.itcm	00000068 random(long, long)
+2001abcc g     O .bss	00000004 p
+00002aec g     F .text.itcm	0000000a TriggerOutput::Sync(unsigned long)
+20019a20 g     O .data	00000010 trLedPins
+00006d34 g     F .text.itcm	0000000c __malloc_unlock
+20017318 g     O .data	000001ec Quantizer::hints16
+2001ac77 g     O .bss	00000001 HardwareSerialIMXRT::s_count_serials_with_serial_events
+2001071c g     O .data	000001e8 Quantizer::freqs1
+60001670 g     F .text.code	00000054 analog_init
+20016fa0 g     O .data	00000378 Quantizer::hints15
+00003098  w    F .text.itcm	00000022 IMX_RT1060_I2CMaster::finished()
+00007298 g     F .text.itcm	0000004a _vdprintf_r
+00001dec g     F .text.itcm	00000030 Quantizer::GetValueForNote(int)
+00004874 g     F .text.itcm	00000048 eeprom_initialize
+00001e60  w    F .text.itcm	00000002 teensy::inplace_function_detail::vtable<void>::vtable<void (*)()>(teensy::inplace_function_detail::wrapper<void (*)()>)::{lambda(void*)#4}::_FUN(void*)
+0000414c  w    F .text.itcm	00000002 teensy::inplace_function_detail::vtable<void>::vtable()::{lambda(void*, void*)#2}::_FUN(void*, void*)
+00000390 g     F .text.itcm	00000010 CVOutput::Calibrate()
+200191e4 g     O .data	00000004 F_CPU_ACTUAL
+00007348 g     F .text.itcm	000000f8 memmove
+000003b8 g     F .text.itcm	00000006 CVOutput::SetQuantizationScale(int)
+00009604 g     F .text.itcm	0000004c _Balloc
+0000caec g       .ARM.exidx	00000000 __exidx_end
+2001ac76 g     O .bss	00000001 EventResponder::runningFromYield
+00001c1c g     F .text.itcm	00000016 Quantizer::Quantizer(int)
+20018f34 g     O .data	000000a0 pwm_pin_info
+00005290 g     F .text.itcm	00000060 tempmonGetTemp
+00000650 g     F .text.itcm	00000070 CVOutput::SetCycle(int, short)
+20019318 g     O .data	00000004 __atexit_recursive_mutex
+00007614 g     F .text.itcm	0000000c __errno
+60001000 g     O .text.headers	00000020 ImageVectorTable
+2001a848 g     O .bss	00000004 EventResponder::firstInterrupt
+00005be0 g     F .text.itcm	00000004 usb_transfer_status
+00000a84 g     F .text.itcm	0000005e CVOutput::TargetValue(int)
+2001a850 g     O .bss	0000001c HardwareSerialIMXRT::s_serials_with_serial_events
+2001ab78 g     O .bss	00000004 __stdio_exit_handler
+20019f7c g     O .data	00000001 analog_write_res
+00000d80 g     F .text.itcm	00000064 CVOutput::SetQuantizedValue(int)
+00005c54  w    F .text.itcm	00000008 usb_serial_class::write(unsigned char const*, unsigned int)
+0000ca80 g     F .text.itcm	0000002c _fstat_r
+20018c8c g     O .data	00000280 digital_pin_to_info_PGM
+00001830 g     F .text.itcm	00000020 Oscillator::SetPhaseOffset(int)
+2001aba8 g     O .bss	00000004 errno
+00000344 g     F .text.itcm	00000008 CVOutput::Kill()
+0000cae8 g       .text.itcm	00000000 _etext
+00003c8c g     F .text.itcm	000000dc _spi_dma_rxISR0()
+2001a2c0 g       .bss	00000000 _sbss
+000008b8 g     F .text.itcm	00000142 CVOutput::RecomputeEnvelopes()
+00001354 g     F .text.itcm	00000008 DAC::setReference(unsigned short)
+200168e0 g     O .data	000006c0 Quantizer::hints14
+00002e78  w    F .text.itcm	00000044 std::_Function_handler<void (unsigned int, unsigned short), std::_Bind<void (I2CDriverWire::*(I2CDriverWire*, std::_Placeholder<1>, std::_Placeholder<2>))(unsigned int, unsigned short)> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+600a4920 g       *ABS*	00000000 _stextload
+00002f6c g     F .text.itcm	000000ac I2CDriverWire::prepare_slave()
+00001e98 g     F .text.itcm	00000070 loop
+00004f30 g     F .text.itcm	0000007a flexpwm_init
+0000188c g     F .text.itcm	00000006 Oscillator::GetFrequency()
+00004930 g     F .text.itcm	000000ec eepromemu_flash_write
+00002d18 g     F .text.itcm	00000020 I2CDriverWire::write(unsigned char)
+00002af8 g     F .text.itcm	000000ac TriggerOutput::Reset()
+00004db0 g     F .text.itcm	000000b4 flexpwmWrite
+600016d0 g     F .text.code	00000004 startup_debug_reset
+00005aa4 g     F .text.itcm	00000064 usb_config_rx
+200147c4 g     O .data	000001e8 Quantizer::scale7
+200189b0  w    O .data	0000000c vtable for Output
+000009fc g     F .text.itcm	00000046 CVOutput::SetEnvelopeMode(int)
+00001408 g     F .text.itcm	0000004c Oscillator::SetFrequency(int)
+2001a4e8 g     O .bss	00000034 Master
+2001a844 g     O .bss	00000004 EventResponder::lastInterrupt
+00000354 g     F .text.itcm	0000003c CVOutput::SetSlew(int, short)
+000014f0 g     F .text.itcm	0000006c Oscillator::SetFloatFrequency(float)
+00004c10 g     F .text.itcm	00000134 memcpy
+00002ca4 g     F .text.itcm	00000064 TxHelper::Parse(unsigned int)
+2001a2c0 g     O .data	00000000 .hidden __TMC_END__
+00001898 g     F .text.itcm	000000a8 Oscillator::PolyBlepFixed(unsigned long)
+00007ac0 g     F .text.itcm	00001b44 _svfprintf_r
+2001ac40 g     O .bss	00000004 systick_millis_count
+00000a44 g     F .text.itcm	00000040 CVOutput::SetValue(int)
+000028a8 g     F .text.itcm	00000068 TriggerOutput::TriggerOutput(int, int)
+2001ac82 g     O .bss	00000001 usb_configuration
+200186dc g     O .data	000001ec Quantizer::scale16
+60000000 g     O .text.headers	00000200 FlexSPI_NOR_Config
+000007f8 g     F .text.itcm	00000006 CVOutput::SetOscQuantizationScale(int)
+20015f54 g     O .data	000001ec Quantizer::freqs16
+00004e64 g     F .text.itcm	000000cc analogWrite
+600a4830  w    O .text.progmem	00000018 usb_string_manufacturer_name
+20010904 g     O .data	000001e8 Quantizer::freqs2
+0000369c g     F .text.itcm	0000004c IMX_RT1060_I2CMaster::read_async(unsigned char, unsigned char*, unsigned int, bool)
+000067a8 g     F .text.itcm	00000010 malloc
+000003c0 g     F .text.itcm	00000012 CVOutput::SetCenter(int)
+0000526c  w    F .text.itcm	0000000a _fstat
+0000a280 g     F .text.itcm	00000040 __assert_func
+00003c74  w    F .text.itcm	00000016 EventResponder::triggerEvent(int, void*)
+200002a8 g     O .data	000000c8 __mprec_tens
+60001970 g     F .text.code	000000e8 usb_init
+000011ac g     F .text.itcm	00000080 CVOutput::UpdateLED()
+0000034c g     F .text.itcm	00000006 CVOutput::ReferenceTriggers(TriggerOutput**, int)
+20016328 g     O .data	000001e8 Quantizer::hints11
+000006c0 g     F .text.itcm	00000070 CVOutput::TargetCycle(int, short)
+2001aa3c g     O .bss	00000004 __malloc_top_pad
+2001ac44 g     O .bss	00000004 systick_safe_read
+20016510 g     O .data	000001e8 Quantizer::hints12
+200189c8  w    O .data	00000010 teensy::inplace_function<void (), 16u, 8u>::inplace_function<void (&)(), void (*)(), void>(void (&)())::vt
+aaaaaaaf g       *ABS*	00000000 _flexram_bank_config
+20019320 g     O .data	00000000 .hidden __dso_handle
+00004a1c g     F .text.itcm	000000b8 eepromemu_flash_erase_sector
+00002ad8 g     F .text.itcm	00000014 TriggerOutput::Sync()
+0000a070 g     F .text.itcm	00000008 _localeconv_r
+0000c2f8 g     F .text.itcm	000002f4 __sfvwrite_r
+000097a8 g     F .text.itcm	0000005c __i2b
+20012fac g     O .data	000001e8 Quantizer::hints7
+20000000 g       .data	00000000 _sdata
+600a48b0 g     O .text.progmem	00000062 usb_config_descriptor_480
+0000041c g     F .text.itcm	00000048 CVOutput::TargetFrequency(int)
+000075c4 g     F .text.itcm	00000024 _sbrk_r
+2001551c g     O .data	000006c0 Quantizer::freqs14
+200198e4 g     O .data	00000050 i2c1_config
+600016c4 g     F .text.code	00000002 startup_default_early_hook
+60001648 g     F .text.code	00000028 ResetHandler
+00006268 g     F .text.itcm	00000020 usb_serial_getchar
+2001ac5c g     O .bss	00000008 usb_cdc_line_coding
+000045ec g     F .text.itcm	00000054 digitalWrite
+2001197c g     O .data	000001e8 Quantizer::freqs8
+2001a84c g     O .bss	00000004 EventResponder::lastYield
+0000a0c8 g     F .text.itcm	0000002c _read_r
+000032a8  w    F .text.itcm	0000005c IMX_RT1060_I2CSlave::IMX_RT1060_I2CSlave(IMXRT_LPI2C_Registers*, IMX_RT1060_I2CBase::Config&, void (*)())
+00009d7c g     F .text.itcm	000000c6 _fclose_r
+2001211c g     O .data	000001e8 Quantizer::hints2
+2001aa34 g     O .bss	00000004 __malloc_max_sbrked_mem
+00004640 g     F .text.itcm	00000070 pinMode
+000007d0 g     F .text.itcm	00000016 CVOutput::Sync()
+00002ac8 g     F .text.itcm	00000006 TriggerOutput::SetMetroCount(int)
+2001a5f4 g     O .bss	00000070 Slave1
+0000394c g     F .text.itcm	00000016 IMX_RT1060_I2CSlave::listen_range(unsigned char, unsigned char)
+00000b78 g     F .text.itcm	00000016 CVOutput::SetCalibrationValue(int)
+00003398 g     F .text.itcm	000001c4 IMX_RT1060_I2CMaster::_interrupt_service_routine()
+2001a7c4 g     O .bss	00000078 Wire2
+00000f18 g     F .text.itcm	00000100 CVOutput::CVOutput(int, int, DAC&)
+00004030 g     F .text.itcm	0000002c SPIClass::setBitOrder(unsigned char)
+600cb800 g     O .text.csf	00000c00 hab_csf
+20280000 g       .text.csf	00000000 _heap_end
+00002c78 g     F .text.itcm	0000002c TxHelper::ConvertMs(unsigned long, short)
+0000cae4 g       .ARM.exidx	00000000 __exidx_start
+2001337c g     O .data	000001e8 Quantizer::hints9
+00005278  w    F .text.itcm	00000004 _isatty
+2001a840 g     O .bss	00000004 EventResponder::firstYield
+00001668 g     F .text.itcm	00000098 Oscillator::TargetLFO(int)
+00006d40 g     F .text.itcm	000003d8 _realloc_r
+2001ac4c g     O .bss	00000010 triggerOutputs
+00007620 g     F .text.itcm	00000048 __libc_init_array
+00002dac g     F .text.itcm	00000028 I2CDriverWire::write(unsigned char const*, unsigned int)
+000007f0 g     F .text.itcm	00000006 CVOutput::SetWaveform(int)
+0000c764 g     F .text.itcm	00000066 _fputwc_r
+20000280 g     O .data	00000028 __mprec_bigtens
+00005288  w    F .text.itcm	00000004 abort
+00005c3c  w    F .text.itcm	00000004 usb_serial_class::clear()
+0000522c  w    F .text.itcm	00000034 _sbrk
+600b140c g       *ABS*	00000000 _sdataload
+00009b10 g     F .text.itcm	00000042 __mcmp
+00001e1c g     F .text.itcm	00000030 Quantizer::GetFrequencyForNote(int)
+00001c40 g     F .text.itcm	000001ac Quantizer::Quantize(int)
+2001931c g     O .data	00000004 __brkval
+2001ac81 g     O .bss	00000001 usb_cdc_line_rtsdtr
+00000ae4 g     F .text.itcm	00000092 CVOutput::SetOffset(int)
+60001aac g     F .text.code	00000000 _init
+00005fb8 g     F .text.itcm	00000002 usb_serial_reset
+000036e8 g     F .text.itcm	00000070 IMX_RT1060_I2CMaster::set_clock(unsigned long)
+00004ad4 g     F .text.itcm	0000012c eeprom_write_byte
+00001c34 g     F .text.itcm	00000008 Quantizer::SetScale(int)
+20015bdc g     O .data	00000378 Quantizer::freqs15
+000003d4 g     F .text.itcm	00000048 CVOutput::SetFrequency(int)
+600a484c g     O .text.progmem	00000062 usb_config_descriptor_12
+00002e34  w    F .text.itcm	00000044 std::_Function_handler<void (unsigned short), std::_Bind<void (I2CDriverWire::*(I2CDriverWire*, std::_Placeholder<1>))(unsigned short)> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+2001acc0 g       .bss	00000000 _ebss
+00002f10 g     F .text.itcm	0000005a I2CDriverWire::end()
+20013b1c g     O .data	000001e8 Quantizer::scale3
+200188c8 g     O .data	00000044 Quantizer::notecount
+00009708 g     F .text.itcm	00000040 __hi0bits
+00003580 g     F .text.itcm	000000e0 IMX_RT1060_I2CMaster::start(unsigned char, unsigned long)
+00002ebc g     F .text.itcm	00000054 I2CDriverWire::I2CDriverWire(I2CMaster&, I2CSlave&)
+000000cc g     F .text.itcm	00000162 CVOutput::Update()
+00001c00 g     F .text.itcm	0000001c Output::Output(int, int)
+00003928 g     F .text.itcm	0000000c IMX_RT1060_I2CSlave::listen(unsigned char)
+20203080 g       .bss.dma	00000000 _heap_start
+2001aa04 g     O .bss	00000001 __lock___malloc_recursive_mutex
+2001a584 g     O .bss	00000070 Slave
+2001aa40 g     O .bss	00000138 __sf
+20011794 g     O .data	000001e8 Quantizer::freqs7
+20014d7c g     O .data	000001e8 Quantizer::freqs10
+00000002 g       *ABS*	00000000 _itcm_block_count
+0000085c g     F .text.itcm	0000005c CVOutput::SetDecay(int, short)
+200198c0 g     O .data	00000010 dacOutputs
+2001a340 g     O .bss	00000020 endpoint0_transfer_data
+00004d48 g     F .text.itcm	00000004 operator delete(void*, unsigned int)
+00004fac g     F .text.itcm	000000f4 pwm_init
+00000d20 g     F .text.itcm	00000060 CVOutput::SetNote(int)
+600cc400 g       .text.csf	00000000 __text_csf_end
+00001618 g     F .text.itcm	00000050 Oscillator::SetLFO(int)
+600017e4 g     F .text.code	0000005c usb_pll_start
+00009960 g     F .text.itcm	000000c0 __pow5mult
+00002d54 g     F .text.itcm	00000016 I2CDriverWire::peek()
+2001a320 g     O .bss	00000020 endpoint0_transfer_ack
+2001ac64 g     O .bss	00000004 usb_cdc_line_rtsdtr_millis
+0000480c g     F .text.itcm	0000000a shiftOut_msbFirst
+00005b9c g     F .text.itcm	00000028 usb_transmit
+00004128 g     F .text.itcm	00000020 systick_isr
+00007674 g     F .text.itcm	00000002 __retarget_lock_release_recursive
+0000135c g     F .text.itcm	0000001c DAC::writeChannel(unsigned char, unsigned short)
+20019238 g     O .data	00000010 Serial
+2001abac g     O .bss	00000004 i
+0000122c g     F .text.itcm	00000018 DAC::DAC(unsigned char, unsigned char, unsigned char, unsigned char, unsigned char)
+0000439c  w    F .text.itcm	00000006 usb_serial_class::write(unsigned char)
+600016c4  w    F .text.code	00000002 startup_early_hook
+000012d0 g     F .text.itcm	00000084 DAC::write(unsigned long)
+0000619c g     F .text.itcm	00000044 usb_serial_peekchar
+00007280 g     F .text.itcm	0000000c __sfp_lock_acquire
+0000a100 g     F .text.itcm	00000000 memchr
+0000311c  w    F .text.itcm	00000048 IMX_RT1060_I2CSlave::stop_listening()
+00006488 g     F .text.itcm	000002f0 set_arm_clock
+2001ac3c g     O .bss	00000004 systick_cycle_count
+20019a40 g     O .data	00000016 usb_string_serial_number_default
+00007884 g     F .text.itcm	0000020c _free_r
+20019a58 g     O .data	00000518 wavetables
+000075ac g     F .text.itcm	0000000c __locale_mb_cur_max
+0000a1ec g     F .text.itcm	00000016 _wcsrtombs_r
+00002dfc  w    F .text.itcm	00000036 std::_Function_handler<void (unsigned int, unsigned short), std::_Bind<void (I2CDriverWire::*(I2CDriverWire*, std::_Placeholder<1>, std::_Placeholder<2>))(unsigned int, unsigned short)> >::_M_invoke(std::_Any_data const&, unsigned int&&, unsigned short&&)
+2001a870 g     O .bss	00000190 __atexit0
+00005c4c  w    F .text.itcm	00000004 usb_serial_class::flush()
+00003934 g     F .text.itcm	00000016 IMX_RT1060_I2CSlave::listen(unsigned char, unsigned char)
+20017ca4 g     O .data	000006c0 Quantizer::scale14
+00001244 g     F .text.itcm	0000008c DAC::init()
+00001c00 g     F .text.itcm	0000001c Output::Output(int, int)
+00002ebc g     F .text.itcm	00000054 I2CDriverWire::I2CDriverWire(I2CMaster&, I2CSlave&)
+20019898 g     O .data	00000004 __malloc_sbrk_base
+00005c44  w    F .text.itcm	00000004 usb_serial_class::read()
+20018964 g     O .data	0000002c vtable for IMX_RT1060_I2CSlave
+00002940 g     F .text.itcm	00000040 TriggerOutput::SetWidth(int)
+0000527c  w    F .text.itcm	00000006 _lseek
+00005284  w    F .text.itcm	00000004 __cxa_pure_virtual
+00009a20 g     F .text.itcm	000000f0 __lshift
+00005b6c g     F .text.itcm	00000030 usb_prepare_transfer
+000050a0 g     F .text.itcm	0000018c unused_interrupt_vector
+0000b174 g     F .text.itcm	00000100 __ssprint_r
+2001ac68 g     O .bss	00000004 usb_timer0_callback
+60001840 g     F .text.code	00000130 tempmon_init
+2001abb0 g     O .bss	00000004 kTime
+00007548 g     F .text.itcm	00000062 _vasnprintf_r
+0000775c g     F .text.itcm	00000088 __register_exitproc
+00004154  w    F .text.itcm	00000002 teensy::inplace_function_detail::vtable<void>::vtable()::{lambda(void*)#4}::_FUN(void*)
+000048bc g     F .text.itcm	00000074 eeprom_read_byte
+000031ac  w    F .text.itcm	0000003c IMX_RT1060_I2CSlave::~IMX_RT1060_I2CSlave()
+20018990 g     O .data	00000020 vtable for IMX_RT1060_I2CMaster
+000061f8 g     F .text.itcm	00000070 usb_serial_flush_input
+00009804 g     F .text.itcm	0000015c __multiply
+00000740 g     F .text.itcm	00000048 CVOutput::SetLFO(int)
+00006288 g     F .text.itcm	0000002c usb_serial_putchar
+00000024 g       *ABS*	00000000 _teensy_model_identifier
+000074e4 g     F .text.itcm	00000064 strncpy
+2001aa0c g     O .bss	00000028 __malloc_current_mallinfo
+20019290 g     O .data	00000044 Quantizer::hints
+200104e4 g     O .data	00000050 SPIClass::spiclass_lpspi4_hardware
+00009ca8 g     F .text.itcm	000000d4 __d2b
+60001a58 g     F .text.code	00000054 _reboot_Teensyduino_
+600016c8 g     F .text.code	00000002 startup_default_middle_hook
+200149ac g     O .data	000001e8 Quantizer::scale8
+2001a550 g     O .bss	00000034 Master2
+2001a51c g     O .bss	00000034 Master1
+00005474 g     F .text.itcm	00000630 usb_isr
+000075b8 g     F .text.itcm	0000000c __cxa_atexit
+0000381c g     F .text.itcm	0000010c IMX_RT1060_I2CSlave::listen(unsigned long, unsigned long)
+0000a078 g     F .text.itcm	00000024 _close_r
+00002a08 g     F .text.itcm	0000002a TriggerOutput::SetMultiplier(int)
+200178d4 g     O .data	000001e8 Quantizer::scale12
+000032a8  w    F .text.itcm	0000005c IMX_RT1060_I2CSlave::IMX_RT1060_I2CSlave(IMXRT_LPI2C_Registers*, IMX_RT1060_I2CBase::Config&, void (*)())
+000041fc g     F .text.itcm	00000104 IntervalTimer::beginCycles(teensy::inplace_function<void (), 16u, 8u>, unsigned long)
+00002ba8 g     F .text.itcm	000000d0 TxHelper::VOct2Frequency(int)
+200191e8 g     O .data	00000050 SPI
+2001893c  w    O .data	00000028 vtable for usb_serial_class
+0000766c g     F .text.itcm	00000002 __retarget_lock_close_recursive
+2001ac18 g     O .bss	00000004 scale_cpu_cycles_to_microseconds
+0000c5ec g     F .text.itcm	000000cc __swsetup_r
+0000116c g     F .text.itcm	0000001e CVOutput::SetEOR(int)
+000046b0 g     F .text.itcm	0000015c shiftOut_lsbFirst
+20019490 g     O .data	00000408 __malloc_av_
+2001a86c g     O .bss	00000004 __atexit
+00000230 g     F .text.itcm	000000ca TriggerOutput::Update(unsigned long)
+00009fc8 g     F .text.itcm	00000022 __sread
+0000631c g     F .text.itcm	00000094 usb_serial_flush_output
+00001378 g     F .text.itcm	0000008c Oscillator::Oscillator()
+00006d28 g     F .text.itcm	0000000c __malloc_lock
+2001a000 g     O .data	000002c0 _VectorsRam
+00002d90 g     F .text.itcm	0000001c I2CDriverWire::on_receive_wrapper(unsigned int, unsigned short)
+00009f74 g     F .text.itcm	00000054 _fflush_r
+000031ac  w    F .text.itcm	0000003c IMX_RT1060_I2CSlave::~IMX_RT1060_I2CSlave()
+20014f64 g     O .data	000001e8 Quantizer::freqs11
+0000a2c0 g     F .text.itcm	00000078 _calloc_r
+00000610 g     F .text.itcm	0000003a CVOutput::TargetOscNote(int)
+00000b90 g     F .text.itcm	00000084 CVOutput::ResetCalibration()
+000029a4 g     F .text.itcm	0000004c TriggerOutput::Pulse()
+00003d68 g     F .text.itcm	00000234 SPIClass::begin()
+00001940 g     F .text.itcm	000002c0 Oscillator::Oscillate()
+200176ec g     O .data	000001e8 Quantizer::scale11
+00003164 g     F .text.itcm	00000048 IMX_RT1060_I2CMaster::end()
+00000800 g     F .text.itcm	0000005a CVOutput::SetAttack(int, short)
+20012a50 g     O .data	0000055c Quantizer::hints6
+2001ac85 g     O .bss	00000001 yield_active_check_flags
+00007670 g     F .text.itcm	00000002 __retarget_lock_acquire_recursive
+2001ac83 g     O .bss	00000001 usb_high_speed
+20013564 g     O .data	000001e8 Quantizer::scale0
+000003a0 g     F .text.itcm	00000016 CVOutput::SetLog(int)
+00007440 g     F .text.itcm	000000a4 memset
+00004c00 g     F .text.itcm	00000010 main
+2001aa38 g     O .bss	00000004 __malloc_max_total_mem
+00007668 g     F .text.itcm	00000002 __retarget_lock_init_recursive
+20200000 g     O .bss.dma	00000062 usb_descriptor_buffer
+00000788 g     F .text.itcm	00000048 CVOutput::TargetLFO(int)
+00003964 g     F .text.itcm	00000050 IMX_RT1060_I2CSlave::end_of_frame()
+00002d38 g     F .text.itcm	0000001a I2CDriverWire::read()
+20019984 g     O .data	00000050 i2c4_config
+00000584 g     F .text.itcm	0000004e CVOutput::TargetVOct(int)
+00000738 g     F .text.itcm	00000006 CVOutput::SetRectify(int)
+00003248  w    F .text.itcm	00000060 IMX_RT1060_I2CSlave::after_receive(std::function<void (unsigned int, unsigned short)>)
+0000a04c g     F .text.itcm	00000008 __sclose
+00005be4 g     F .text.itcm	00000058 usb_init_serialnumber
+0000307c g     F .text.itcm	00000004 IMX_RT1060_I2CMaster::get_bytes_transferred()
+00002ad0 g     F .text.itcm	00000006 TriggerOutput::SetMute(bool)
+60001b04 g       .text.code	00000000 __init_array_end
+0000a460 g     F .text.itcm	00000cec _dtoa_r
+000067c8 g     F .text.itcm	00000560 _malloc_r
+0000a054 g     F .text.itcm	0000001a __ascii_wctomb
+20014b94 g     O .data	000001e8 Quantizer::scale9
+200189d8  w    O .data	00000010 SPIClass::beginTransaction(SPISettings)::clk_sel
+0000405c g     F .text.itcm	00000084 EventResponder::triggerEventNotImmediate()
+00001f40 g     F .text.itcm	000006c0 actOnCommand(unsigned char, unsigned char, int)
+00002a70 g     F .text.itcm	00000058 TriggerOutput::SetMetroTime(int, short)
+20019f7d g     O .data	00000001 dacOn
+000077e4 g     F .text.itcm	000000a0 _malloc_trim_r
+0000c7cc g     F .text.itcm	00000106 _wcsnrtombs_l
+600a4848 g     O .text.progmem	00000004 string0
+000062b4 g     F .text.itcm	00000018 usb_serial_write
+600016cc  w    F .text.code	00000002 startup_late_hook
+00000f18 g     F .text.itcm	00000100 CVOutput::CVOutput(int, int, DAC&)
+00005c48  w    F .text.itcm	00000004 usb_serial_class::available()
+200189bc g     O .data	0000000c vtable for CVOutput
+2001ac48 g     O .bss	00000004 targetOutput
+00002d10  w    F .text.itcm	00000008 I2CDriverWire::available()
+20011b64 g     O .data	000001e8 Quantizer::freqs9
+00003758 g     F .text.itcm	000000c4 IMX_RT1060_I2CMaster::begin(unsigned long)
+0000051c g     F .text.itcm	00000018 CVOutput::SetFrequencySlew(int, short)
+20000000 g     O .data	00000280 endpoint_queue_head
+20016140 g     O .data	000001e8 Quantizer::hints10
+600a4818  w    O .text.progmem	00000016 usb_string_product_name
+2001514c g     O .data	000001e8 Quantizer::freqs12
+000044f4 g     F .text.itcm	000000a8 delay
+0000122c g     F .text.itcm	00000018 DAC::DAC(unsigned char, unsigned char, unsigned char, unsigned char, unsigned char)
+200198b4 g     O .data	0000000c configPins
+0000cae0 g     F .fini	00000000 _fini
+60001020 g     O .text.headers	0000000c BootData
+000043c0 g     F .text.itcm	0000001c Print::printf(char const*, ...)
+20019f70 g     O .data	00000004 writeRate
+0000528c g     F .text.itcm	00000004 Panic_Temp_isr
+00000464 g     F .text.itcm	0000005c CVOutput::SetQuantizedVOct(int)
+0000c8d4 g     F .text.itcm	00000024 _wcsnrtombs_r
+000075e8 g     F .text.itcm	0000002c _write_r
+00004150  w    F .text.itcm	00000002 teensy::inplace_function_detail::vtable<void>::vtable()::{lambda(void*, void*)#3}::_FUN(void*, void*)
+00002a34 g     F .text.itcm	00000036 TriggerOutput::SetMetro(int, unsigned long)
+00001378 g     F .text.itcm	0000008c Oscillator::Oscillator()
+200103e4 g     O .data	00000100 CVOutput::_ledMap
+00002928 g     F .text.itcm	00000016 TriggerOutput::SetTime(int, short)
+200198ac g     O .data	00000004 _impure_ptr
+00009e44 g     F .text.itcm	00000130 __sflush_r
+2001a6d4 g     O .bss	00000078 Wire
+00007300 g     F .text.itcm	00000046 _fwalk_sglue
+00004300 g     F .text.itcm	00000070 IntervalTimer::end()
+20012304 g     O .data	000001e8 Quantizer::hints3
+60001af0 g       .text.code	00000000 __preinit_array_end
+000010bc g     F .text.itcm	00000098 CVOutput::SetENV(int)
+2001ab80 g     O .bss	00000010 cvOutputs
+20010cd4 g     O .data	0000026c Quantizer::freqs4
+00007a90 g     F .text.itcm	0000002a __ascii_mbtowc
+00005448 g     F .text.itcm	0000002c usb_stop_sof_interrupts
+00001e64 g     F .text.itcm	00000028 writeOutputs()
+00000c14 g     F .text.itcm	00000082 CVOutput::TargetNote(int)
+00002910 g     F .text.itcm	00000018 TriggerOutput::SetState(bool)
+000026ac g     F .text.itcm	000001b0 setup
+2001901c g     O .data	00000084 usb_descriptor_list
+2001ab90 g     O .bss	00000006 dac
+00001700 g     F .text.itcm	00000058 Oscillator::SetWidth(int)
+0000118c g     F .text.itcm	0000001e CVOutput::SetEOC(int)
+00002d0c  w    F .text.itcm	00000002 Print::flush()
+200166f8 g     O .data	000001e8 Quantizer::hints13
+2001a664 g     O .bss	00000070 Slave2
+000007e8 g     F .text.itcm	00000006 CVOutput::SetPhaseOffset(int)
+00002620 g     F .text.itcm	0000008c readCalibrationData()
+200124ec g     O .data	0000026c Quantizer::hints4
+00003f9c g     F .text.itcm	00000094 SPIClass::setClockDivider_noInline(unsigned long)
+00001850 g     F .text.itcm	0000003c Oscillator::SetPortamentoMs(unsigned long)
+00000534 g     F .text.itcm	0000004e CVOutput::SetVOct(int)
+20070000 g       .text.csf	00000000 _estack
+20012758 g     O .data	000002f8 Quantizer::hints5
+20019f74 g     O .data	00000008 writeTimer
+000062cc g     F .text.itcm	00000050 usb_serial_write_buffer_free
+00001e4c  w    F .text.itcm	00000004 teensy::inplace_function_detail::vtable<void>::vtable<void (*)()>(teensy::inplace_function_detail::wrapper<void (*)()>)::{lambda(void*)#1}::_FUN(void*)
+000039b4 g     F .text.itcm	00000132 IMX_RT1060_I2CSlave::_interrupt_service_routine()
+200198a0 g     O .data	0000000c __sglue
+00005fbc g     F .text.itcm	00000100 usb_serial_configure
+000043a4  w    F .text.itcm	0000001c _write
+00001758 g     F .text.itcm	00000022 Oscillator::SetRectify(int)
+00000020 g     F .text.itcm	000000ac CVOutput::UpdateDAC(int)
+20010f40 g     O .data	000002f8 Quantizer::freqs5
+2001a2c0 g       .data	00000000 _edata
+20017504 g     O .data	000001e8 Quantizer::scale10
+0000c6b8 g     F .text.itcm	000000aa __fputwc
+00003304 g     F .text.itcm	00000094 initialise_common(IMX_RT1060_I2CBase::Config, unsigned long, InternalPullup)
+00005c50  w    F .text.itcm	00000004 usb_serial_class::availableForWrite()
+20018930 g     O .data	0000000c vtable for TriggerOutput
+00001e58  w    F .text.itcm	00000006 teensy::inplace_function_detail::vtable<void>::vtable<void (*)()>(teensy::inplace_function_detail::wrapper<void (*)()>)::{lambda(void*, void*)#3}::_FUN(void*, void*)
+00003080  w    F .text.itcm	0000000a IMX_RT1060_I2CSlave::set_transmit_buffer(unsigned char const*, unsigned int)
+00004d4c g     F .text.itcm	00000062 ultoa
+000005d4 g     F .text.itcm	0000003a CVOutput::SetOscNote(int)
+0000308c  w    F .text.itcm	0000000a IMX_RT1060_I2CSlave::set_receive_buffer(unsigned char*, unsigned int)
+20010534 g     O .data	000001e8 Quantizer::freqs0
+000030bc  w    F .text.itcm	00000060 IMX_RT1060_I2CSlave::after_transmit(std::function<void (unsigned short)>)
+200192d4 g     O .data	00000044 Quantizer::scales
+00009fec g     F .text.itcm	0000003e __swrite
+00004d44 g     F .text.itcm	00000004 operator new(unsigned int)
+000040e0 g     F .text.itcm	00000044 EventResponder::runFromInterrupt()
+2001989c g     O .data	00000004 __malloc_trim_threshold
+00005c40  w    F .text.itcm	00000004 usb_serial_class::peek()
+0000b14c g     F .text.itcm	00000028 fiprintf
+0000b2ec g     F .text.itcm	00000f8c _vfiprintf_r
+00009b54 g     F .text.itcm	00000154 __mdiff
+000004c0 g     F .text.itcm	0000005c CVOutput::TargetQuantizedVOct(int)
+200190c0 g     O .data	00000120 _impure_data
+000029f0 g     F .text.itcm	00000004 TriggerOutput::SetPolarity(bool)
+0000728c g     F .text.itcm	0000000c __sfp_lock_release
+0000177c g     F .text.itcm	00000098 Oscillator::SetWaveform(int)
+20018ab0 g     O .data	00000101 _ctype_
+00005260  w    F .text.itcm	00000004 _read
+60001af0 g       .text.code	00000000 __init_array_start
+2001374c g     O .data	000001e8 Quantizer::scale1
+00004444 g     F .text.itcm	000000b0 analogRead
+200191e0 g     O .data	00000004 F_BUS_ACTUAL
+00001f08 g     F .text.itcm	00000038 writeCalibrationValue(int, int)
+00004148  w    F .text.itcm	00000002 teensy::inplace_function_detail::vtable<void>::vtable()::{lambda(void*)#1}::_FUN(void*)
+20018f18 g     O .data	0000001c pin_to_channel
+0000c8f8 g     F .text.itcm	000000d8 __smakebuf_r
+00000000 g       .text.itcm	00000000 _stext
+20019248 g     O .data	00000004 IntervalTimer::nvic_priorites
+20019a30 g     O .data	00000010 trPins
+00001e50  w    F .text.itcm	00000006 teensy::inplace_function_detail::vtable<void>::vtable<void (*)()>(teensy::inplace_function_detail::wrapper<void (*)()>)::{lambda(void*, void*)#2}::_FUN(void*, void*)
+00007680 g     F .text.itcm	000000dc strlen
+00003018 g     F .text.itcm	0000001c I2CDriverWire::begin(unsigned char)
+00002600 g     F .text.itcm	00000020 receiveEvent(unsigned int)
+00001e8c  w    F .text.itcm	0000000c IntervalTimer::~IntervalTimer()
+600a4818 g     O .text.progmem	00000016 usb_string_product_name_default
+00001814 g     F .text.itcm	0000001a Oscillator::ResetPhase(long)
+000072e4 g     F .text.itcm	0000001c vdprintf
+20018364 g     O .data	00000378 Quantizer::scale15
+20019934 g     O .data	00000050 i2c3_config
+20013934 g     O .data	000001e8 Quantizer::scale2
+20010aec g     O .data	000001e8 Quantizer::freqs3
+600016c8  w    F .text.code	00000002 startup_middle_hook
+600016d4 g     F .text.code	00000110 configure_cache
+00001c1c g     F .text.itcm	00000016 Quantizer::Quantizer(int)
+2001ab7c g     O .bss	00000004 currentTime
+00001458 g     F .text.itcm	00000094 Oscillator::TargetFrequency(int)
+20019a10 g     O .data	00000010 pwmLedPins
+60001af0 g       .text.code	00000000 __preinit_array_start
+00005bc4 g     F .text.itcm	0000001c usb_receive
+20015334 g     O .data	000001e8 Quantizer::freqs13
+20011d4c g     O .data	000001e8 Quantizer::hints0
+00009748 g     F .text.itcm	00000060 __lo0bits
+000cc400 g       *ABS*	00000000 _flashimagelen
+00002980 g     F .text.itcm	00000024 TriggerOutput::ToggleState()
+000031e8  w    F .text.itcm	00000060 IMX_RT1060_I2CSlave::before_transmit(std::function<void (unsigned short)>)
+0000679c g     F .text.itcm	0000000a __aeabi_atexit
+00006778 g     F .text.itcm	00000024 rtc_get
+00002dd4  w    F .text.itcm	00000026 std::_Function_handler<void (unsigned short), std::_Bind<void (I2CDriverWire::*(I2CDriverWire*, std::_Placeholder<1>))(unsigned short)> >::_M_invoke(std::_Any_data const&, unsigned short&&)
+0000a208 g     F .text.itcm	00000078 frexp
+00000c98 g     F .text.itcm	00000086 CVOutput::TargetQuantizedValue(int)
+00004124 g     F .text.itcm	00000004 pendablesrvreq_isr
+2001924c g     O .data	00000044 Quantizer::freqs
+00002d08  w    F .text.itcm	00000004 Print::availableForWrite()
+20019324 g     O .data	0000016c __global_locale
+00001018 g     F .text.itcm	000000a4 CVOutput::TriggerEnvelope()
+20014268 g     O .data	0000055c Quantizer::scale6
+00002898 g     F .text.itcm	0000000e TriggerOutput::Kill()
+000060bc g     F .text.itcm	000000e0 usb_serial_read
+20011f34 g     O .data	000001e8 Quantizer::hints1
+2001aa08 g     O .bss	00000001 __lock___sfp_recursive_mutex
+00005b08 g     F .text.itcm	00000064 usb_config_tx
+00005264  w    F .text.itcm	00000006 _close
+000067b8 g     F .text.itcm	00000010 free
+00009664 g     F .text.itcm	000000a4 __multadd
+200198b0 g     O .data	00000004 configID
+00009650 g     F .text.itcm	00000012 _Bfree
+20019a40  w    O .data	00000016 usb_string_serial_number
+
+
