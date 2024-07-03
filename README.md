@@ -23,4 +23,4 @@ Changes are made in defines.h
 
 
 TXI:
-firmware has been updated, but is currently untested, as I lack a txi.  The only changes made were changing the I2c Library in the main sketch and the txhelper.ccp and txhelper.h tabs. It compiles and should work.    
+firmware has (finally) been tested and works!   
