@@ -9,7 +9,7 @@ You will need to install the Teensy4_I2C library:   https://github.com/Richard-G
 
 ...and add teensy board definitions to the arduino IDE:    https://www.pjrc.com/teensy/td_download.html
 
-Set CPU speed to 396mhz (or 150mhz), when you compile in arduino.   (Ive found that faster CPU speeds cause problems,and will not work at all at 600mhz)
+Set CPU speed to 396mhz (or 150mhz) in "Board Settings" when you compile in arduino.   (Ive found that faster CPU speeds cause problems,and will not work at all at 600mhz)
 
 Alternately, you could just flash the pre-compiled .hex file that (in respective TXO and TXI folders) using Ty Uploader (or other utility): https://github.com/Koromix/tytools
 
