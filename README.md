@@ -1,6 +1,5 @@
 # Telex_teensy4
 An update of bpcmusic's Telex Teletype Expanders to make them compatable with Teensy 4.x devices.     The original version can be found here: https://github.com/bpcmusic/telex
-
 Uses the original PCB - No hardware changes needed.
 
 ## Compiling on Arduino IDE
@@ -28,5 +27,3 @@ Changes are made in defines.h
     #define KRATE 50 //25
 
 
-TXI:
-firmware has (finally) been tested and works!   
