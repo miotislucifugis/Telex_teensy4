@@ -1,6 +1,7 @@
 # Telex_teensy4
 An update of bpcmusic's Telex Teletype Expanders to make them compatable with Teensy 4.x devices: Teensy 4.0 and 4.1.    The original Teensy 3 version can be found here: https://github.com/bpcmusic/telex
-Uses the original PCB - No hardware changes needed.
+
+Uses the same/original PCB - No hardware changes needed!
 
 ## Compiling on Arduino IDE
 
