@@ -80,8 +80,8 @@ void setup() {
   }
   configID += cfg;  
 
-  // TELEXi uses the standard Teensy analog inputs which have 13 bit usable resolution
-  analogReadResolution(13);
+  // TELEXi_T4 uses the standard Teensy 4.0 analog inputs which have 12 bit usable resolution
+  analogReadResolution(12); //13
 
   // debugging nonsense
 #ifdef DEBUG

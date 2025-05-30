@@ -1,7 +1,8 @@
 /*
  * TELEXi Eurorack Module
- * (c) 2016 Brendon Cassidy
+ * (c) 2016 Brendon Cassidy   
  * MIT License
+ * (update for Teensy 4.0 - 2024 Charles Hobbs )
  */
  
 #include "Arduino.h"
